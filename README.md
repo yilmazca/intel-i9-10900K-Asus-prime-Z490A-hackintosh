@@ -19,7 +19,9 @@ Disk: SanDisk Extreme Pro 1TB M.2 NVMe 3D SSD
 • Internal Audio: Realtek ALC S1220A => (layout-id and device-id required)
 External Sound: Creative Sound Blaster Audigy PCIe RX 7.1 - (NOT WORKING YET)
 SMBIOS: iMac19.1
-Software I use
+
+
+Which Software I use ?
 
 • Installation was done on APFS file system.
 
