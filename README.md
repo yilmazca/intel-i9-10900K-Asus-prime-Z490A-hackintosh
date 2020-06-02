@@ -1,3 +1,5 @@
+Firstly sorry for english, I will translate directly..
+
 The System I Use
 
 • Processor: Intel i9-10900K Comet Lake 3.7GHZ - 5.3GHZ Turbo => (Power management TDP values ​​don't seem to work properly)
