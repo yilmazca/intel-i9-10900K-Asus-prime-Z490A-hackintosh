@@ -1,5 +1,5 @@
 # intel-i9-10900K-Asus-prime-Z490A-hackintosh
-###Firstly sorry my english not so good :)
+### Firstly sorry my english not so good :)
 
 ![Asus Prime Z490-A i9-10900K Hackintosh MacOS installation](https://github.com/yilmazca/intel-i9-10900K-Asus-prime-Z490A-hackintosh/blob/master/Docs/ss1.png?raw=true)
 
@@ -13,10 +13,10 @@ I successfully installed the system on Macos (hackintosh) 10.15.5 and it is work
 I hope that will be useful :)
 
 
-##Current Bootlader
+## Current Bootlader
 **Opencore 0.5.9**
 
-##Hardware
+## Hardware
 * Asus Prime Z490-A
 * Intel i9-10900K
 * 16GB DDR4 3000MHZ
@@ -28,7 +28,7 @@ I hope that will be useful :)
 * Creative Sound Blaster Audigy PCIe RX 7.1
 * SMBIOS: iMac19,2
 
-##What's Working ?
+## What's Working ?
 - [x] Intel UHD Graphics 630 (iGPU), Working correctly with **Metal Support** on DP (Display Port)
 - [x] Onboard Audio Realtek ALC S1220A (if you have different motherboard, you may need to change layout-id)
 - [x] SanDisk Extreme Pro 1TB M.2 NVMe 3D SSD, Test results below
@@ -38,14 +38,14 @@ I hope that will be useful :)
 - [x] Sleep/Wake
 - [x] Reboot and Shutdown
 
-##Not Working
+## Not Working
 -[ ] HDMI Port not working.
 
 What solutions did I try for HDMI Port?
 * Framebuffer Patching with BusID with/without WhateverGreen.kext. 
 > If you have an idea, please let me know.
 
-##Onboard Audio, HDMI Audio
+## Onboard Audio, HDMI Audio
 I needed the list to run the audio.
 * AppleALC.kext
 * FakeID.kext
@@ -55,7 +55,7 @@ I needed the list to run the audio.
 
 I am using HDMI audio on DisplayPort(DP) with LG 34WK650
 
-##USB Ports
+## USB Ports
 I used hackintool for USB Port Map. You will see screenshot below. If you are using another ASUS model motherboard, USB Ports may not working correctly. 
 In similar cases, 
 1. Enable USBInjectAll.kext
@@ -65,7 +65,7 @@ In similar cases,
 5. Reboot (Now you have all USB Ports,you can't use it that way. You should not exceed the 15 port limit. This is absolutely essential for system stability.)
 6. Open Hackintool app and REMAP according to you. Check this link for details [The New Beginner's Guide to USB Port Configuration](https://www.tonymacx86.com/threads/the-new-beginners-guide-to-usb-port-configuration.286553/)
 
-#Installation
+# Installation
 **Bios Settings**
 * Disable
     * Fast Boot
@@ -89,7 +89,7 @@ In similar cases,
 * Now navigate to PlatformInfo -> Generic "click up/down button" you must see Mac product list, Select iMac 19,2. Now You must generate a serial by using the GENERATE buttons.
 * Install MacOS Catalina
 
-##General Troubleshooting
+## General Troubleshooting
 **The system does not boot**
 Open config.plist with Opencore Configurator and change these values.
 **You have to try each one individually**
@@ -129,7 +129,7 @@ Add this patch line to KERNEL -> PATCH tab
 >Skip:0
 >
 
-##Tested Softwares
+## Tested Softwares
 I use list in the real life and working correctly.
 * Adobe Series
 * Affinity Series
@@ -138,7 +138,7 @@ I use list in the real life and working correctly.
 * Heaven Benchmark
 * Intel Power Gadget
 
-##Tools
+## Tools
 * [Hackintool](https://github.com/headkaze/Hackintool/releases/) - For every Job :)
 * [SSDTTime](https://github.com/corpnewt/SSDTTime) - Extract your right SSDT Files from ACPI.
 * Opencore Configurator - Config.plist editor great software.
@@ -147,13 +147,13 @@ I use list in the real life and working correctly.
 
 That is all :)
 
-##USB Port Map
+## USB Port Map
 ![Hackintosh USB Port Map](https://raw.githubusercontent.com/yilmazca/intel-i9-10900K-Asus-prime-Z490A-hackintosh/master/Docs/ss3.png)
 ![Hackintosh USB Port Map Asus Z490](https://raw.githubusercontent.com/yilmazca/intel-i9-10900K-Asus-prime-Z490A-hackintosh/master/Docs/internal-usb-port-map.png)
 ![Hackintosh USB Port Map Asus Z490](https://raw.githubusercontent.com/yilmazca/intel-i9-10900K-Asus-prime-Z490A-hackintosh/master/Docs/usb-port-map.png)
 
 
-##Screenshots
+## Screenshots
 ![Asus Prime Z490-A i9-10900K Hackintosh MacOS installation](https://github.com/yilmazca/intel-i9-10900K-Asus-prime-Z490A-hackintosh/blob/master/Docs/ss1.png?raw=true)
 ![Asus Prime Z490-A Video Proc](https://raw.githubusercontent.com/yilmazca/intel-i9-10900K-Asus-prime-Z490A-hackintosh/master/Docs/ss2.png)
 ![Intel UHD 630 Benchmark Test Heaven](https://raw.githubusercontent.com/yilmazca/intel-i9-10900K-Asus-prime-Z490A-hackintosh/master/Docs/ss4.png)
