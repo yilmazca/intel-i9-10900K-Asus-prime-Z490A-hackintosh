@@ -39,7 +39,7 @@ I hope that will be useful :)
 - [x] Reboot and Shutdown
 
 ## Not Working
--[ ] HDMI Port not working.
+- [ ] HDMI Port not working.
 
 What solutions did I try for HDMI Port?
 * Framebuffer Patching with BusID with/without WhateverGreen.kext. 
